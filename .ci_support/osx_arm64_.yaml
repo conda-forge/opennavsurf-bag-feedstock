@@ -15,7 +15,7 @@ cxx_compiler_version:
 hdf5:
 - 1.14.2
 libxml2:
-- '2.11'
+- '2.12'
 macos_machine:
 - arm64-apple-darwin20.0.0
 pin_run_as_build:
