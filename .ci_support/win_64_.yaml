@@ -9,7 +9,7 @@ cxx_compiler:
 hdf5:
 - 1.14.2
 libxml2:
-- '2.11'
+- '2.12'
 pin_run_as_build:
   python:
     min_pin: x.x
