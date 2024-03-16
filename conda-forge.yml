@@ -7,4 +7,4 @@ github:
 provider:
   linux_aarch64: azure
   osx_arm64: azure
-test_on_native_only: true
+test: native_and_emulated
