@@ -15,15 +15,6 @@ Summary: BAG consists of library code and examples required to read and write da
 Grid (BAG) file format.
 
 
-About libbaglib
----------------
-
-
-
-Package license: BSD-3-Clause
-
-Summary: The Bathymetric Attributed Grid (BAG) library
-
 About bagpy
 -----------
 
@@ -32,6 +23,15 @@ About bagpy
 Package license: BSD-3-Clause
 
 Summary: Python wrapper for the Bathymetric Attributed Grid (BAG) library
+
+About libbaglib
+---------------
+
+
+
+Package license: BSD-3-Clause
+
+Summary: The Bathymetric Attributed Grid (BAG) library
 
 Current build status
 ====================
