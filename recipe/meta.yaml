@@ -9,7 +9,7 @@ source:
   sha256: 13b99ffef4a4a32de2c8ecffb7a73eee9129f80fdecd7fb21b638d97e88b1ae6
 
 build:
-  number: 1
+  number: 2
   skip: true  # [py<38]
 
 requirements:
@@ -24,7 +24,7 @@ requirements:
     - swig
   host:
     - hdf5
-    - libxml2
+    - libxml2-devel
 
 outputs:
   - name: libbaglib
@@ -43,7 +43,7 @@ outputs:
         - catch2
       host:
         - hdf5
-        - libxml2
+        - libxml2-devel
     about:
       summary: The Bathymetric Attributed Grid (BAG) library
       license: BSD-3-Clause
@@ -74,7 +74,7 @@ outputs:
         - wheel
         - cmake-build-extension
         - hdf5
-        - libxml2
+        - libxml2-devel
         - {{ pin_subpackage('libbaglib', exact=True) }}
       run:
         - python
