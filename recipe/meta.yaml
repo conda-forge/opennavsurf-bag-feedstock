@@ -53,8 +53,7 @@ outputs:
     script: install_python.sh  # [unix]
     script: install_python.bat  # [win]
     build:
-      skip_compile_pyc:
-        python/*.py
+      skip_compile_pyc: python/*.py
     requirements:
       build:
         - cmake
