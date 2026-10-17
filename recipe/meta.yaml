@@ -1,4 +1,4 @@
-{% set version = "2.0.5" %}
+{% set version = "2.0.6" %}
 
 package:
   name: opennavsurf-bag
@@ -6,10 +6,10 @@ package:
 
 source:
   url: https://github.com/OpenNavigationSurface/BAG/archive/refs/tags/release-{{ version }}.tar.gz
-  sha256: ea96ca0fa077e3d8fd98338875133a699a176474b82835d177c7b8000594fe79
+  sha256: 6adef2813a6774259edbddfd6ac31209b29e71b147e15d292df0e76d3d3c9de4
 
 build:
-  number: 3
+  number: 0
   skip: true  # [py<38]
 
 requirements:
